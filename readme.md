@@ -85,7 +85,7 @@ This project is created for organizational and educational purposes.
 ---
 
 ## 🌐 Live Demo
-https://lomba-albahjah.netlify.app
+https://lomba-albahjah-demo.netlify.app
 
 ---
 
