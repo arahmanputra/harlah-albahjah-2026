@@ -12,12 +12,16 @@
     />
 
     <!-- Bootstrap icon -->
-    <link rel="stylesheet" href="../assets/images/icons/bs-icon/bootstrap-icons-1.13.1/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/images/icons/bs-icon/bootstrap-icons-1.13.1/bootstrap-icons.min.css"
+    />
 
     <!-- Font Inter offline -->
     <style>
       body {
         margin: 0;
+        padding-top: 50px;
       }
 
       /* Navbar */
@@ -27,6 +31,14 @@
 
       /* Hero Section */
       .hero {
+        padding: 80px 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("../assets/images/pexels-maxfrancis-2246476.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         padding: 80px 0;
       }
       .hero h1 {
@@ -83,7 +95,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Lomba Albahjah</a>
         <button
@@ -118,20 +130,15 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <h1>Lomba Albahjah 2026</h1>
-            <p>Tantang kemampuanmu, asah kreativitas, dan raih kemenangan!</p>
-            <a href="#events" class="btn btn-dark btn-lg">Lihat Event</a>
-          </div>
-          <div class="col-md-6 text-center">
-            <img
-              src="../assets/images/pexels-maxfrancis-2246476.jpg"
-              class="img-fluid"
-              alt="Hero Image"
-            />
+    <section class="hero d-flex align-items-center">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="fw-bold display-4">Lomba Albahjah 2026</h1>
+            <p class="lead">
+              Tantang kemampuanmu, asah kreativitas, dan raih kemenangan!
+            </p>
+            <a href="#events" class="btn btn-light btn-lg">Lihat Event</a>
           </div>
         </div>
       </div>
