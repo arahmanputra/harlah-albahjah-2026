@@ -12,7 +12,7 @@
     />
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- Bootstrap icon -->
     <link
@@ -36,9 +36,7 @@
       .hero {
         padding: 80px 0;
         min-height: 100vh;
-        background:
-          linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url("../assets/images/pexels-maxfrancis-2246476.jpg");
+        background: url("./assets/images/bg-hero1.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -180,15 +178,20 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero d-flex align-items-center">
-      <div class="container text-white">
-        <div class="row">
-          <div class="col-md-6">
-            <h1 class="fw-bold display-4">Lomba Albahjah 2026</h1>
+    <section class="hero d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="fw-bold display-4">Perlombaan Harlah Al-Bahjah 2026</h1>
             <p class="lead">
               Tantang kemampuanmu, asah kreativitas, dan raih kemenangan!
             </p>
-            <a href="#events" class="btn btn-primary btn-lg">Lihat Event</a>
+            <a href="#events" class="btn btn-primary btn-lg mt-3 mx-2">
+              Daftar
+            </a>
+            <a href="#events" class="btn btn-outline-secondary btn-lg mt-3">
+              Lihat Event
+            </a>
           </div>
         </div>
       </div>
@@ -200,7 +203,7 @@
         <div class="row align-items-center">
           <!-- Kolom Teks -->
           <div class="col-md-6 mb-4 mb-md-0">
-            <h2 class="fw-bold mb-4">About Lomba Albahjah</h2>
+            <h2 class="fw-bold mb-4">Tentang <span style="color: #22c55e;">Harlah</span> <span style="color: #facc15;">Al-Bahjah</span> 2026</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -219,7 +222,7 @@
               nec luctus magna felis sollicitudin mauris.
             </p>
 
-            <a href="about.html" class="btn btn-dark btn-lg mt-3">
+            <a href="about.html" class="btn btn-primary btn-lg mt-3">
               Selengkapnya →
             </a>
           </div>
@@ -239,7 +242,7 @@
     <!-- Events Section -->
     <section id="events">
       <div class="container">
-        <h2 class="text-center mb-5">Upcoming Events</h2>
+        <h2 class="fw-bold text-center mb-5">Upcoming Events</h2>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
@@ -294,7 +297,7 @@
     <section id="competitions" class="py-5">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="mb-3">Competitions</h2>
+          <h2 class="fw-bold mb-3">Competitions</h2>
           <p class="mx-auto" style="max-width: 700px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -337,7 +340,7 @@
     <!-- FAQ Section -->
     <section id="faq">
       <div class="container">
-        <h2 class="text-center mb-5">FAQ</h2>
+        <h2 class="fw-bold text-center mb-5">FAQ</h2>
         <div class="accordion" id="faqAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="faq1">
@@ -457,7 +460,7 @@
         <div class="row">
           <!-- Section Navigasi -->
           <div class="col-md-3 mb-4">
-            <h5>Menu</h5>
+            <h5 class="fw-bold">Menu</h5>
             <ul class="list-unstyled">
               <li><a href="#" class="text-white">Home</a></li>
               <li><a href="#about" class="text-white">About</a></li>
@@ -471,7 +474,7 @@
 
           <!-- Admin Putra -->
           <div class="col-md-4 mb-4">
-            <h5>Admin Putra</h5>
+            <h5 class="fw-bold">Admin Putra</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
                 <i class="bi bi-person-fill me-2"></i> Andhika Rahman
@@ -502,7 +505,7 @@
 
           <!-- Admin Putri -->
           <div class="col-md-4 mb-4">
-            <h5>Admin Putri</h5>
+            <h5 class="fw-bold">Admin Putri</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
                 <i class="bi bi-person-fill me-2"></i> Siti Aisyah <br /><small
