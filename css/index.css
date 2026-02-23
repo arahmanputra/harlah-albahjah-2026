@@ -117,3 +117,11 @@ a:hover .putra-card {
   height: 350px;
   object-fit: cover;
 }
+
+.competition-image {
+  background-image: url('../assets/images/pexels-maxfrancis-2246476.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+}
