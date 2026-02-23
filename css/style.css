@@ -10,11 +10,13 @@ body {
 .section-title {
   font-family: 'Playfair Display';
   color: #15803d;
+  text-decoration: underline #facc15;
 }
 
 .footer-title {
   font-family: 'Playfair Display';
   color: #facc15;
+  text-decoration: underline #15803d;
 }
 
 .btn-primary {
