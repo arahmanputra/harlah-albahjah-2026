@@ -20,7 +20,6 @@
       href="../assets/images/icons/bs-icon/bootstrap-icons-1.13.1/bootstrap-icons.min.css"
     />
 
-    <!-- Font Inter offline -->
     <style>
       body {
         margin: 0;
@@ -55,6 +54,17 @@
       #about {
         padding: 60px 0;
         background-color: #f8f9fa;
+      }
+
+      .card {
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
       }
 
       /* Event Section */
@@ -139,6 +149,17 @@
       .putri-card {
         background-image: url("./assets/images/undraw_grand-slam_xvhp.png");
       }
+
+      .sponsor-logo {
+        max-height: 70px;
+        opacity: 0.8;
+        transition: all 0.3s ease;
+      }
+
+      .sponsor-logo:hover {
+        opacity: 1;
+        transform: scale(1.05);
+      }
     </style>
   </head>
   <body>
@@ -182,7 +203,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <h1 class="fw-bold display-4">Perlombaan Harlah Al-Bahjah 2026</h1>
+            <h1 class="fw-bold display-4">Harlah Al-Bahjah 2026</h1>
             <p class="lead">
               Tantang kemampuanmu, asah kreativitas, dan raih kemenangan!
             </p>
@@ -203,7 +224,10 @@
         <div class="row align-items-center">
           <!-- Kolom Teks -->
           <div class="col-md-6 mb-4 mb-md-0">
-            <h2 class="fw-bold mb-4">Tentang <span style="color: #22c55e;">Harlah</span> <span style="color: #facc15;">Al-Bahjah</span> 2026</h2>
+            <h2 class="fw-bold mb-4">
+              Tentang <span style="color: #22c55e">Harlah</span>
+              <span style="color: #facc15">Al-Bahjah</span> 2026
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -242,50 +266,64 @@
     <!-- Events Section -->
     <section id="events">
       <div class="container">
-        <h2 class="fw-bold text-center mb-5">Upcoming Events</h2>
+        <h2 class="fw-bold text-center mb-5">Event Terkini</h2>
         <div class="row g-4">
+          <!-- Event 1 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <img
                 src="../assets/images/pexels-souvenirpixels-1519088.jpg"
                 class="card-img-top"
-                alt="Event 1"
+                alt="Workshop Coding"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Workshop Coding</h5>
                 <p class="card-text">
                   Pelajari dasar-dasar pemrograman dari mentor berpengalaman.
                 </p>
+                <a href="events/workshop.html" class="btn btn-primary mt-auto">
+                  Lihat Detail
+                </a>
               </div>
             </div>
           </div>
+
+          <!-- Event 2 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <img
                 src="../assets/images/pexels-weekendplayer-701337.jpg"
                 class="card-img-top"
-                alt="Event 2"
+                alt="Webinar AI"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Webinar AI</h5>
                 <p class="card-text">
                   Diskusi mendalam tentang tren AI di dunia modern.
                 </p>
+                <a href="events/webinar.html" class="btn btn-primary mt-auto">
+                  Lihat Detail
+                </a>
               </div>
             </div>
           </div>
+
+          <!-- Event 3 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-sm">
               <img
                 src="../assets/images/pexels-steve-845242.jpg"
                 class="card-img-top"
-                alt="Event 3"
+                alt="Hackathon"
               />
-              <div class="card-body">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Hackathon</h5>
                 <p class="card-text">
                   Buktikan skillmu dalam kompetisi coding 24 jam nonstop.
                 </p>
+                <a href="events/hackathon.html" class="btn btn-primary mt-auto">
+                  Lihat Detail
+                </a>
               </div>
             </div>
           </div>
@@ -297,7 +335,7 @@
     <section id="competitions" class="py-5">
       <div class="container">
         <div class="text-center mb-5">
-          <h2 class="fw-bold mb-3">Competitions</h2>
+          <h2 class="fw-bold mb-3">Kompetisi</h2>
           <p class="mx-auto" style="max-width: 700px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -314,20 +352,6 @@
             >
               <div class="competition-card-img putra-card mb-3"></div>
               <h4 class="fw-bold">Perlombaan Putra</h4>
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </a>
-          </div>
-
-          <!-- Putri -->
-          <div class="col-md-6 col-lg-5 text-center">
-            <a
-              href="competitions/putri.html"
-              class="text-decoration-none text-dark"
-            >
-              <div class="competition-card-img putri-card mb-3"></div>
-              <h4 class="fw-bold">Perlombaan Putri</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
@@ -449,6 +473,59 @@
                 Silakan hubungi bagian kontak di bawah ini.
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-3">Sponsor</h2>
+          <p class="mx-auto" style="max-width: 700px">
+            Terima kasih kepada para sponsor yang telah mendukung Lomba Albahjah
+            2026.
+          </p>
+        </div>
+
+        <div
+          class="row justify-content-center align-items-center text-center g-4"
+        >
+          <div class="col-6 col-md-2">
+            <img
+              src="./assets/images/pexels-maxfrancis-2246476.jpg"
+              class="img-fluid sponsor-logo"
+              alt="Sponsor 1"
+            />
+          </div>
+          <div class="col-6 col-md-2">
+            <img
+              src="./assets/images/pexels-pixabay-460672.jpg"
+              class="img-fluid sponsor-logo"
+              alt="Sponsor 2"
+            />
+          </div>
+          <div class="col-6 col-md-2">
+            <img
+              src="./assets/images/pexels-souvenirpixels-1519088.jpg"
+              class="img-fluid sponsor-logo"
+              alt="Sponsor 3"
+            />
+          </div>
+          <div class="col-6 col-md-2">
+            <img
+              src="./assets/images/pexels-steve-845242.jpg"
+              class="img-fluid sponsor-logo"
+              alt="Sponsor 4"
+            />
+          </div>
+          <div class="col-6 col-md-2">
+            <img
+              src="./assets/images/pexels-weekendplayer-701337.jpg"
+              class="img-fluid sponsor-logo"
+              alt="Sponsor 5"
+            />
           </div>
         </div>
       </div>
