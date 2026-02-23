@@ -2,7 +2,7 @@
 .hero {
   padding: 80px 0;
   min-height: 100vh;
-  background: url("./assets/images/bg-hero1.png");
+  background: url("../assets/images/bg-hero1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,4 +129,12 @@ a:hover .putra-card {
 footer a:hover {
   color: #facc15 !important;
   transition: 0.3s;
+}
+
+#competitions .competition-image-wrapper {
+  height: 450px; /* atur sesuai selera */
+}
+
+.object-fit-cover {
+  object-fit: cover;
 }
