@@ -112,3 +112,8 @@ a:hover .putra-card {
   opacity: 1;
   transform: scale(1.05);
 }
+
+#aboutCarousel img {
+  height: 350px;
+  object-fit: cover;
+}
