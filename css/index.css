@@ -125,3 +125,8 @@ a:hover .putra-card {
   min-height: 400px;
   position: relative;
 }
+
+footer a:hover {
+  color: #facc15 !important;
+  transition: 0.3s;
+}
