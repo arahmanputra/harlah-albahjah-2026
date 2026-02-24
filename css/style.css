@@ -20,13 +20,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #22c55e !important;
-  border-color: #22c55e !important;
+  background-color: oklch(52.7% 0.154 150.069) !important;
+  border-color: oklch(52.7% 0.154 150.069) !important;
 }
 
 .btn-primary:hover {
-  background-color: #16a34a !important;
-  border-color: #16a34a !important;
+  background-color: oklch(44.8% 0.119 151.328) !important;
+  border-color: oklch(44.8% 0.119 151.328) !important;
 }
 
 .btn-secondary {
